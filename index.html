@@ -18,12 +18,38 @@
     <main>
         <form>
             <h2>Inserir nova imagem</h2>
-            <input type="url" required placeholder="URL da foto"/>
+            <input type="url" required id="endereço-imagem-nova" placeholder="URL da foto"/>
             <button type="submit">Adicionar</button>
             <button type="reset" id="cancelar-button">Cancelar</button>
         </form>
+        <ul>
+            <li>
+                <img src="./images/foto1.jpg" alt="Pintura de um gato">
+                    <div class="overlay-imagem-link">
+                        <a href="./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+                    </div>
+            </li>
+            <li>
+                <img src="./images/foto2.jpg" alt="Imagem de um flamingo">
+                    <div class="overlay-imagem-link">
+                        <a href="./images/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+                    </div>
+            </li>
+            <li>
+                <img src="./images/foto3.jpg" alt="Imagem de dois filhotes de cachorro">
+                    <div class="overlay-imagem-link">
+                        <a href="./images/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+                    </div>
+            </li>
+            <li>
+                <img src="./images/foto4.jpg" alt="Imagem uma abelha numa flor">
+                    <div class="overlay-imagem-link">
+                        <a href="./images/foto4.jpg" title="Ver imagem em tamanho real" target="_blank">Ver imagem em tamanho real</a>
+                    </div>
+            </li>
+        </ul>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>src="./main.js"</script>
+    <script src="./main.js"></script>
 </body>
 </html>

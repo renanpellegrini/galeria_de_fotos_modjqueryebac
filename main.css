@@ -42,3 +42,41 @@ form input {
 form h2 {
     margin-bottom: 12px;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul li {
+    width: 25%;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+
+ul li img {
+    width: 100%;
+}
+
+.overlay-imagem-link {
+    background-color: rgba(0,0,0,0.7);
+    padding: 16px;
+    position: absolute;    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.overlay-imagem-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-imagem-link {
+    opacity: 1;
+    
+}
